@@ -1,0 +1,23 @@
+@import url(../footer/__copyright/__copyright.css);
+.footer {
+    border: 1px solid salmon;
+    display: flex;
+    justify-content: space-between;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+
+/* @media screen and (max-width: 700px) {
+    .footer {
+        flex-direction: column;
+    }
+} */
+
+@media screen and (max-width: 700px) {
+    .footer {
+        display: grid;
+        grid-template-areas: "nav social" "copy else";
+        column-gap: 32px;
+        row-gap: 40px;
+    }
+}

@@ -1,0 +1,22 @@
+@import url(../icons-grid/__item/__item.css);
+.icons-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 54px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    padding-left: 178px;
+}
+
+@media screen and (max-width: 1300px) {
+    .icons-grid {
+        padding: 20px 0 0;
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .icons-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 33px;
+    }
+}

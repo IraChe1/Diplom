@@ -1,0 +1,23 @@
+@import url(../header/__logo/__logo.css);
+@import url(../header/__logo/_black.css/_black.css);
+@import url(../header/_about/_about.css);
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    box-shadow: inset 0px -1px 0px rgba(255, 255, 255, 0.2);
+    padding: 0 104px 22px;
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        padding: 0 40px 18px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .header {
+        padding: 0 16px 16px;
+    }
+}

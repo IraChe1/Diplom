@@ -1,0 +1,14 @@
+.navigation__link_footer {
+    color: #1A1B22;
+    font-size: 18px;
+}
+
+.navigation__link_footer:hover {
+    color: #B6BCBF;
+}
+
+@media screen and (max-width: 320px) {
+    .navigation__link_footer {
+        margin: 0 0 20px 0 !important;
+    }
+}

@@ -1,0 +1,12 @@
+.technologies {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F5F6F7;
+}
+
+@media screen and (max-width: 1300px) {
+    .technologies {
+        flex-direction: column;
+        justify-content: left;
+    }
+}

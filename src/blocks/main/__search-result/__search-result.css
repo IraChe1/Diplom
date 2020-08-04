@@ -1,0 +1,16 @@
+.main__search-result {
+    border: 1px solid salmon;
+    padding: 80px 104px 80px 104px;
+}
+
+@media screen and (max-width: 768px) {
+    .main__search-result {
+        padding: 40px 40px 40px 40px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .main__search-result {
+        padding: 16px 16px 44px 16px;
+    }
+}

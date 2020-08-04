@@ -1,0 +1,15 @@
+.main__author {
+    margin: 80px 104px 80px 104px;
+}
+
+@media screen and (max-width: 768px) {
+    .main__author {
+        margin: 40px 40px 40px 48px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .main__author {
+        margin: 32px 16px 32px 16px;
+    }
+}

@@ -1,0 +1,12 @@
+.news-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 16px;
+}
+
+@media screen and (max-width: 500px) {
+    .news-cards {
+        display: flex;
+        flex-direction: column;
+    }
+}

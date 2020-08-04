@@ -1,0 +1,12 @@
+.navigation__link_active {
+    border-bottom: 2px solid #fff;
+    color: #fff !important;
+    padding-bottom: 21px;
+    cursor: default;
+}
+
+@media screen and (max-width: 768px) {
+    .navigation__link_active {
+        padding-bottom: 18px;
+    }
+}

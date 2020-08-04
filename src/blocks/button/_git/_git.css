@@ -1,0 +1,18 @@
+.button_git {
+    display: none;
+}
+
+.button_git:hover {
+    background-color: #e9e9ea;
+}
+
+@media screen and (max-width: 320px) {
+    .button_git {
+        display: initial;
+        border: 1px solid black !important;
+        width: 288px;
+        background-color: #F5F6F7;
+        align-self: center !important;
+        font-weight: 500;
+    }
+}

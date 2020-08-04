@@ -1,0 +1,18 @@
+.card__paragraph {
+    margin: 0;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    color: #111;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+
+@media screen and (max-width: 768px) {
+    .card__paragraph {
+        -webkit-line-clamp: 4;
+    }
+}

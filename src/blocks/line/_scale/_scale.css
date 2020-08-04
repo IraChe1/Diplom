@@ -1,0 +1,14 @@
+.line_scale {
+    padding-bottom: 16px !important;
+}
+
+.line_scale:last-child {
+    padding-bottom: 80px !important;
+    margin-top: -48px !important;
+}
+
+@media screen and (max-width: 768px) {
+    .line_scale:last-child {
+        padding-bottom: 40px !important;
+    }
+}

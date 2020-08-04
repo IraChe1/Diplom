@@ -1,0 +1,7 @@
+@media screen and (max-width: 700px) {
+    .navigation_footer {
+        display: flex;
+        flex-direction: column;
+        grid-area: nav;
+    }
+}

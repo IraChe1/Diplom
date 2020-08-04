@@ -1,0 +1,15 @@
+.header-group__search {
+    margin: 64px auto 50px !important;
+}
+
+@media screen and (max-width: 768px) {
+    .header-group__search {
+        margin: 24px auto 48px !important;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header-group__search {
+        margin: 64px auto 32px !important;
+    }
+}

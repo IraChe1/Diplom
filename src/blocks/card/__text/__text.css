@@ -1,0 +1,10 @@
+.card__text {
+    margin: 20px 24px 24px 24px;
+}
+
+@media screen and (max-width: 768px) {
+    .card__text {
+        max-height: 270px;
+        margin: 16px 16px 16px 16px;
+    }
+}

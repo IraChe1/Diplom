@@ -1,0 +1,19 @@
+@import url(../../vendor/fonts/fonts.css);
+@import url(../main/__author/__author.css);
+@import url(../main/__search-result/__search-result.css);
+@import url(../main/__news-cards/__news-cards.css);
+@import url(../main/__note/__note.css);
+@import url(../main/__technologies/__technologies.css);
+@import url(../main/__commits/__commits.css);
+@import url(../main/__analytics/__analytics.css);
+.main {
+    max-width: 1440px;
+    min-width: 320px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+    .main {
+        width: 100%;
+    }
+}
