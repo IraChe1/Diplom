@@ -7,13 +7,18 @@
 @import url(../card/__text/__text.css);
 .card {
     background-color: #fff;
-    border-radius: 3%;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     text-decoration: none;
     overflow: hidden;
     min-height: 210px;
     max-width: 400px;
+    transition: box-shadow 0.2s;
+}
+
+.card:hover {
+    box-shadow: 0 0 15px #000;
 }
 
 @media screen and (max-width: 768px) {
