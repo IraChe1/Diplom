@@ -1,6 +1,5 @@
 @import url(../search/__field/__field.css);
 .search {
-    border: 1px solid salmon;
     position: relative;
     width: 100%;
     font-family: Roboto, Arial, Helvetica, sans-serif;

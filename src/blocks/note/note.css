@@ -3,7 +3,6 @@
 @import url(../note/__span/__span.css);
 @import url(../note/__navigation/__navigation.css);
 .note {
-    border: 1px solid salmon;
     display: flex;
     flex-direction: column;
     text-align: left;

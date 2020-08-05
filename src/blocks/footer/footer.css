@@ -1,6 +1,5 @@
 @import url(../footer/__copyright/__copyright.css);
 .footer {
-    border: 1px solid salmon;
     display: flex;
     justify-content: space-between;
     font-family: Roboto, Arial, Helvetica, sans-serif;

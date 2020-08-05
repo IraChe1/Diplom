@@ -2,7 +2,6 @@
 @import url(../header-group/__header-lead/__header-lead.css);
 @import url(../header-group/__search/__search.css);
 .header-group {
-    border: 1px solid salmon;
     background-image: url(../../img/main_img.jpg);
     background-size: cover;
     display: flex;

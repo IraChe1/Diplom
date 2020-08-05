@@ -2,7 +2,6 @@
 @import url(../header-lead/__subtitle/__subtitle.css);
 .header-lead {
     max-width: 608px;
-    border: 1px solid salmon;
     color: #fff;
     display: flex;
     flex-direction: column;

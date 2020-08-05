@@ -1,5 +1,4 @@
 .card__img {
-    border: 1px solid salmon;
     background-image: url(../../../img/card.jpg);
     background-size: cover;
     background-position: center;

@@ -2,7 +2,6 @@
 @import url(../news-serch/__img/__img.css);
 @import url(../news-serch/__status/__status.css);
 .news-serch {
-    border: 1px solid salmon;
     min-height: 282px;
     background: #F5F6F7;
     display: flex;

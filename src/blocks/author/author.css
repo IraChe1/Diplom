@@ -1,6 +1,5 @@
 @import url(../author/__avatar/__avatar.css);
 .author {
-    border: 1px solid salmon;
     display: flex;
 }
 
