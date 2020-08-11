@@ -1,0 +1,22 @@
+.link {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #1A1B22;
+    align-self: center;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+}
+
+@media screen and (max-width: 700px) {
+    .link {
+        align-self: start;
+        padding-top: 12px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .link {
+        display: none;
+    }
+}

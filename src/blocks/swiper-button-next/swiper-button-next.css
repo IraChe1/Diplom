@@ -1,0 +1,19 @@
+.swiper-button-next {
+    margin: 0;
+    z-index: 11 !important;
+    top: 45% !important;
+}
+
+.swiper-button-next::after {
+    padding: 13px 16px 13px 19px;
+    background-color: #111;
+    color: #fff;
+    font-size: 18px !important;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 320px) {
+    .swiper-button-next {
+        display: none !important;
+    }
+}

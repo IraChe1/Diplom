@@ -1,0 +1,5 @@
+.commit__id {
+    display: flex;
+    max-height: 64px;
+    margin-bottom: 16px;
+}

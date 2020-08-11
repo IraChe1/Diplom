@@ -1,0 +1,15 @@
+.scale {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    color: #B6BCBF;
+    padding: 16px 0 0;
+    font-size: 12px;
+    margin: 0;
+}
+
+@media screen and (max-width: 320px) {
+    .scale {
+        display: none;
+    }
+}

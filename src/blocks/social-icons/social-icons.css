@@ -1,0 +1,17 @@
+@import url(../social-icons/__icon/__icon.css);
+@import url(../social-icons/__link/__link.css);
+@import url(../social-icons/__pic/__pic.css);
+.social-icons {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 320px) {
+    .social-icons {
+        justify-content: flex-start;
+        grid-area: social;
+    }
+}

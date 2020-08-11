@@ -1,0 +1,7 @@
+.social-icons__icon {
+    margin-right: 28px;
+}
+
+.social-icons__icon:last-child {
+    margin-right: 0;
+}

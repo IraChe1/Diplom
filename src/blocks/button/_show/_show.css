@@ -1,0 +1,10 @@
+.button_show {
+    width: 288px;
+    background-color: #fff;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    align-self: center;
+}
+
+.button_show:hover {
+    background-color: #e9e9ea;
+}

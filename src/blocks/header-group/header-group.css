@@ -1,0 +1,15 @@
+@import url(../header-group/__header/__header.css);
+@import url(../header-group/__header-lead/__header-lead.css);
+@import url(../header-group/__search/__search.css);
+.header-group {
+    background-image: url(../../img/main_img.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 320px) {
+    .header-group {
+        background-position: center;
+    }
+}

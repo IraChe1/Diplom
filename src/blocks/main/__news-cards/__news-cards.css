@@ -1,0 +1,9 @@
+.main__news-cards {
+    margin: 64px auto 64px;
+}
+
+@media screen and (max-width: 768px) {
+    .main__news-cards {
+        margin: 16px 0 22px;
+    }
+}

@@ -1,0 +1,5 @@
+@media screen and (max-width: 320px) {
+    .navigation_anal {
+        display: none !important;
+    }
+}

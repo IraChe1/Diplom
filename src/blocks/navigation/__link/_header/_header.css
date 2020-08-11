@@ -1,0 +1,14 @@
+.navigation__link_header {
+    color: #B6BCBF;
+    margin-left: 34px;
+}
+
+.navigation__link_header:hover {
+    color: #fff;
+}
+
+@media screen and (max-width: 700px) {
+    .navigation__link_header {
+        margin-left: 11px;
+    }
+}

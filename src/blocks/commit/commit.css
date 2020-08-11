@@ -1,0 +1,9 @@
+@import url(../commit/__id/__id.css);
+@import url(../commit/__avatar/__avatar.css);
+@import url(../commit/__texts/__texts.css);
+@import url(../commit/__title/__title.css);
+@import url(../commit/__subtitle/__subtitle.css);
+.commit {
+    display: flex;
+    flex-direction: column;
+}

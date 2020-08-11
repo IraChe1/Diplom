@@ -1,0 +1,15 @@
+@import url(../header-lead/__title/__title.css);
+@import url(../header-lead/__subtitle/__subtitle.css);
+.header-lead {
+    max-width: 608px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+@media screen and (max-width: 768px) {
+    .header-lead {
+        max-width: 452px;
+    }
+}

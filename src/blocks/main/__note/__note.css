@@ -1,0 +1,15 @@
+.main__note {
+    margin: 80px 104px 94px 104px;
+}
+
+@media screen and (max-width: 768px) {
+    .main__note {
+        margin: 30px 40px 44px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .main__note {
+        margin: 16px 16px 24px;
+    }
+}

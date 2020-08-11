@@ -1,0 +1,7 @@
+.navigation__link_grey {
+    color: #B6BCBF;
+}
+
+.navigation__link_grey:hover {
+    color: #111;
+}

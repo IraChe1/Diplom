@@ -1,0 +1,6 @@
+@import url(../__day/_title/_title.css);
+.line__day {
+    margin: 0;
+    width: 60px;
+    font-size: 18px;
+}

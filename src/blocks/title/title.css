@@ -1,0 +1,24 @@
+@import url(../title/_tech/_tech.css);
+@import url(../title/_commit/_commit.css);
+.title {
+    font-family: Roboto Slab, Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    line-height: 46px;
+    margin: 0;
+    padding-bottom: 24px;
+}
+
+@media screen and (max-width: 768px) {
+    .title {
+        font-size: 30px;
+        line-height: 40px;
+        padding-bottom: 16px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .title {
+        max-width: 288px;
+        padding-bottom: 16px;
+    }
+}

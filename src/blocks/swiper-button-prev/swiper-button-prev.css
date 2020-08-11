@@ -1,0 +1,18 @@
+.swiper-button-prev {
+    margin: 0;
+    top: 45% !important;
+}
+
+.swiper-button-prev::after {
+    padding: 13px 19px 13px 16px;
+    background-color: #111;
+    color: #fff;
+    font-size: 18px !important;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 320px) {
+    .swiper-button-prev {
+        display: none !important;
+    }
+}

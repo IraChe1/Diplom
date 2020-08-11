@@ -1,0 +1,15 @@
+.header-group__header {
+    margin: 30px 0 0;
+}
+
+@media screen and (max-width: 768px) {
+    .header-group__header {
+        margin: 22px 0 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header-group__header {
+        margin: 16px 0 0;
+    }
+}

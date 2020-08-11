@@ -1,0 +1,25 @@
+@import url(../line/_roof/_roof.css);
+@import url(../line/__date/__date.css);
+@import url(../line/__day/__day.css);
+@import url(../line/__row/__row.css);
+@import url(../line/__perc/__perc.css);
+@import url(../line/__quan/__quan.css);
+@import url(../line/_scale/_scale.css);
+.line {
+    display: grid;
+    grid-template-columns: 104px 1fr;
+    padding-bottom: 56px;
+}
+
+.line:first-child {
+    padding-bottom: 24px;
+}
+
+@media screen and (max-width: 320px) {
+    .line {
+        padding-bottom: 24px;
+    }
+    .line:first-child {
+        padding-bottom: 18px;
+    }
+}

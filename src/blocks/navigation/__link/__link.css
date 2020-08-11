@@ -1,0 +1,10 @@
+@import url(../__link/_active/_active.css);
+@import url(../__link/_footer/_footer.css);
+@import url(../__link/_header/_header.css);
+@import url(../__link/_black/_black.css);
+@import url(../__link/_grey/_grey.css);
+@import url(../__link/_active-black/_active-black.css);
+.navigation__link {
+    text-decoration: none;
+    transition: all .2s linear;
+}

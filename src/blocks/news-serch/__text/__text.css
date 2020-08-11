@@ -1,0 +1,9 @@
+.news-serch__text {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    color: #B6BCBF;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 24px auto 0;
+    max-width: 320px;
+    text-align: center;
+}

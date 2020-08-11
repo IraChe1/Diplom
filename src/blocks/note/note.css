@@ -1,0 +1,9 @@
+@import url(../note/_author/_author.css);
+@import url(../note/_clients/_clients.css);
+@import url(../note/__span/__span.css);
+@import url(../note/__navigation/__navigation.css);
+.note {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}

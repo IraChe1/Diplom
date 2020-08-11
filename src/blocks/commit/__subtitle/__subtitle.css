@@ -1,0 +1,10 @@
+.commit__subtitle {
+    margin: 6px 0 0;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+    .commit__subtitle {
+        font-size: 14px;
+    }
+}
