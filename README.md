@@ -34,4 +34,4 @@ ES6, Babel, OOP, CSS3, HTML5, Webpack, BEM
 - Разместить production-билд на github pages - `npm run deploy`
 
 ## Ссылка на github pages:
-https://github.com/IraChe1/Diplom.git
+https://irache1.github.io/Diplom/

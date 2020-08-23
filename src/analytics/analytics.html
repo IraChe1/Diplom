@@ -16,22 +16,27 @@
         <header class="page__header header header_about">
             <a class="header__logo header__logo_black" href="../index.html" target="_blank">NewsAnalyzer</a>
             <ul class="navigation">
-                <li class="navigation__url navigation__url_header"><a class="navigation__link navigation__link_grey" href="../index.html" target="_blank">Главная</a></li>
-                <li class="navigation__url"><a class="navigation__link navigation__link_grey" href="../about.html" target="_blank">О проекте</a></li>
+                <li class="navigation__url navigation__url_header"><a class="navigation__link navigation__link_grey" href="index.html" target="_blank">Главная</a></li>
+                <li class="navigation__url"><a class="navigation__link navigation__link_grey" href="about.html" target="_blank">О проекте</a></li>
             </ul>
         </header>
 
         <main class="main">
             <div class="main__note note">
                 <ul class="note__navigation navigation navigation_anal">
-                    <li class="navigation__url"><a class="navigation__link navigation__link_black" href="../index.html" target="_blank">Главная </a></li>
+                    <li class="navigation__url"><a class="navigation__link navigation__link_black" href="../index.html" target="_blank">Главная&#32;</a></li>
                     <li class="navigation__url">
-                        <span class="navigation__link navigation__link_grey">/ Аналитика</span>
+                        <span class="navigation__link navigation__link_grey">&#x20;/ Аналитика</span>
                     </li>
                 </ul>
-                <h2 class="title">Вы спросили: «Путешествия»</h2>
-                <p class="paragraph paragraph_analytics">Новостей за неделю: <span class="note__span">34 324</span></p>
-                <p class="paragraph paragraph_analytics">Упоминаний в заголовках: <span class="note__span">235</span>
+                <section id="nothing-found" class="news-search news-search_invis">
+                    <img class="news-search__img" src="<%=require('../img/not-found_v1.png')%>" alt="Грустный смайл">
+                    <p class="news-search__status">Ничего не найдено</p>
+                    <p class="news-search__text">К сожалению, по вашему запросу ничего не найдено.</p>
+                </section>
+                <h2 class="title">Вы спросили: «<span class="note__span note__span_search-value"></span>»</h2>
+                <p class="paragraph paragraph_analytics">Новостей за неделю: <span class="note__span note__span_in-text">-</span></p>
+                <p class="paragraph paragraph_analytics">Упоминаний в заголовках: <span class="note__span note__span_in-title">-</span>
                 </p>
             </div>
             <div class="main__analytics analytics">
@@ -40,7 +45,7 @@
 
                     <div class="line line_roof">
                         <div class="line__date">
-                            <p class="line__day line__day_title">дата (август)</p>
+                            <p id="month" class="line__day line__day_title"></p>
                         </div>
                         <div class="line__date"><span class="line__day line__day_title">кол-во упоминаний</span></div>
                     </div>
@@ -61,17 +66,25 @@
                             </div>
                         </div>
                     </div>
+                    <div class="analytics__row">
 
+                    </div>
+                    <!-- шаблон карточки -->
+                    <template id="analytics-card-template">
                     <div class="line">
                         <div class="line__date">
                             <p class="line__day">19, пн</p>
                         </div>
                         <div class="line__row">
-                            <div class="line__quan" style="width: 15%"><span class="line__perc">15</span></div>
+                            <div class="line__quan" style="width: 15%">
+                                <span class="line__perc">15</span>
+                            </div>
                         </div>
                     </div>
+                    </template>
+                    <!-- конец шаблона карточки -->
 
-                    <div class="line">
+                    <!-- <div class="line">
                         <div class="line__date">
                             <p class="line__day">20, вт</p>
                         </div>
@@ -123,7 +136,7 @@
                         <div class="line__row">
                             <div class="line__quan" style="width: 34%"><span class="line__perc">34</span></div>
                         </div>
-                    </div>
+                    </div> -->
 
                     <div class="line line_scale">
                         <div class="line__date">
@@ -163,7 +176,6 @@
             </ul>
         </footer>
     </div>
-    <script src="<%= htmlWebpackPlugin.files.js %>"></script>
 </body>
 
 </html>

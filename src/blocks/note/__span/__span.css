@@ -1,3 +1,6 @@
+@import url(../__span/_in-text/_in-text.css);
+@import url(../__span/_in-title/_in-title.css);
+@import url(../__span/_search-value/_search-value.css);
 .note__span {
     font-weight: 900;
 }
