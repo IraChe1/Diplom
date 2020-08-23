@@ -6,6 +6,10 @@
     line-height: 46px;
     margin: 0;
     padding-bottom: 24px;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
 }
 
 @media screen and (max-width: 768px) {

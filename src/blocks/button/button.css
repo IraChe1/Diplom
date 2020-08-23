@@ -1,6 +1,8 @@
 @import url(../button/_search/_search.css);
 @import url(../button/_show/_show.css);
 @import url(../button/_git/_git.css);
+@import url(../button/_invis/_invis.css);
+@import url(../button/_invalid/_invalid.css);
 .button {
     font-family: Roboto, Arial, Helvetica, sans-serif;
     font-size: 18px;

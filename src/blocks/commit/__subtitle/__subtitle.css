@@ -1,6 +1,9 @@
 .commit__subtitle {
     margin: 6px 0 0;
     font-family: Roboto, Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 250px;
 }
 
 @media screen and (max-width: 768px) {

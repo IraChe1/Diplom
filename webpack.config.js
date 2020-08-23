@@ -62,6 +62,14 @@ module.exports = {
     },
 
     plugins: [
+        new OptimizeCssAssetsPlugin({
+            assetNameRegExp: /\.css$/g,
+            cssProcessor: require('cssnano'),
+            cssProcessorPluginOptions: {
+                preset: ['default'],
+            },
+            canPrint: true
+        }),
         new HtmlWebpackPlugin({
             template: './src/about/about.html',
             chunks: ['about'],
@@ -79,14 +87,6 @@ module.exports = {
         }),
         new MiniCssExtractPlugin({
             filename: 'css/[name].[contenthash].css'
-        }),
-        new OptimizeCssAssetsPlugin({
-            assetNameRegExp: /\.css$/g,
-            cssProcessor: require('cssnano'),
-            cssProcessorPluginOptions: {
-                preset: ['default'],
-            },
-            canPrint: true
         }),
         new WebpackMd5Hash(),
         new webpack.DefinePlugin({

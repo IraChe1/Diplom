@@ -72,12 +72,14 @@
             <section class="swiper">
                 <div class="commits__swiper-container swiper-container">
                     <div class="swiper-wrapper">
+                        <!-- Шаблон слайда с карточкой-->
+                        <template id="commit-template" style="display: none">
                         <div class="swiper-slide">
                             <a class="commit-cards__card card" href="#" target="_blank">
                                 <p class="card__date">2 августа, 2019</p>
                                 <div class="commit">
                                     <div class="commit__id">
-                                        <img class="commit__avatar" src="<%=require('../img/avatar.png')%>" alt="Портрет">
+                                        <img class="commit__avatar">
                                         <div class="commit__texts">
                                             <h3 class="commit__title">Антон Долинин1</h3>
                                             <p class="commit__subtitle">anton@yandex.ru</p>
@@ -87,7 +89,10 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="swiper-slide">
+                        </template>
+                        <!-- конец шаблона -->
+
+                        <!-- <div class="swiper-slide">
                             <a class="commit-cards__card card" href="#" target="_blank">
                                 <p class="card__date">2 августа, 2019</p>
                                 <div class="commit">
@@ -146,7 +151,7 @@
                                     <p class="card__paragraph">Emmet (formerly Zen Coding) is a web- developer’s toolkit that can greatly improve your HTML & CSS workflow.</p>
                                 </div>
                             </a>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="swiper-pagination"></div>
                     <div class="swiper-button-next"></div>
@@ -176,7 +181,6 @@
             </ul>
         </footer>
     </div>
-    <script src="<%= htmlWebpackPlugin.files.js %>"></script>
 </body>
 
 </html>
